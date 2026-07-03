@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>SHOP NOW</h1>
+
+    <div class="cart">
+        🛒 Cart :
+        <span id="cart-count">0</span>
+    </div>
+</header>
+
+<section class="products">
+
+    <div class="product">
+        <img src="./images/shoes.jpg" alt="Running Shoes">
+
+        <h2>Running Shoes</h2>
+
+        <p>₹1999</p>
+
+        <button onclick="addToCart()">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product">
+        <img src="./images/watch.jpg" alt="Watch">
+
+        <h2>Smart Watch</h2>
+
+        <p>₹2999</p>
+
+        <button onclick="addToCart()">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product">
+        <img src="./images/bag.jpg" alt="Bag">
+
+        <h2>Backpack</h2>
+
+        <p>₹999</p>
+
+        <button onclick="addToCart()">
+            Add to Cart
+        </button>
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
